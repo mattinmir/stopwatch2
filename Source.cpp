@@ -10,10 +10,21 @@ int main()
 
 	counter c;
 	c.increment();
+	c.increment();
+	c.increment();
+	c.increment();
+	c.increment();
+	c.increment();
 	cout << c << endl;
 
-	modulocounter mc2;
+
+	modulocounter mc2(5);
 	mc2.increment();
+	mc2.increment();
+	mc2.increment();
+	mc2.increment();
+	mc2.increment();
+
 	cout << mc2 << endl;
 
 

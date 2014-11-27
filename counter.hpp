@@ -6,7 +6,7 @@ class counter
 public:
 	counter();
 
-	void increment();
+	virtual bool increment();
 
 	void reset();
 

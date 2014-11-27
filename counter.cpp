@@ -4,9 +4,10 @@
 counter::counter() : count(0)
 {}
 
-void counter::increment()
+bool counter::increment()
 {
 	count++;
+	return true;
 }
 
 void counter::reset()

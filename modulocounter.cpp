@@ -12,7 +12,7 @@ modulocounter::modulocounter(int m)
 
 bool modulocounter::increment()
 {
-	bool rollover = false;;
+	bool rollover = false;
 	counter::increment();
 	if (get_count() == modulo)
 	{

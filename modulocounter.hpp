@@ -5,7 +5,7 @@ class modulocounter : public counter
 public:
 	modulocounter(int m = 0);
 
-	bool increment();
+	virtual bool increment();
 
 	virtual std::string str() const;
 	
