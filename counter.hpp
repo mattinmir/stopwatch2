@@ -1,3 +1,6 @@
+#ifndef "COUNTER_HPP"
+#define "COUNTER_HPP"
+
 #include <iostream>
 #include <string>
 
@@ -21,3 +24,5 @@ protected:
 };
 
 std::ostream& operator<<(std::ostream& out, const counter &c);
+
+#endif
