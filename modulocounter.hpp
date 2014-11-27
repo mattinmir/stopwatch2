@@ -1,3 +1,6 @@
+#ifndef "MODULOCOUNTER_HPP"
+#define "MODULOCOUNTER_HPP"
+
 #include "counter.hpp"
 
 class modulocounter : public counter
@@ -12,3 +15,5 @@ public:
 private:
 	int modulo;
 };
+
+#endif
