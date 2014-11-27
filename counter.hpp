@@ -1,5 +1,5 @@
-#ifndef "COUNTER_HPP"
-#define "COUNTER_HPP"
+#ifndef COUNTER_HPP
+#define COUNTER_HPP
 
 #include <iostream>
 #include <string>
